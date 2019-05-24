@@ -1,0 +1,21 @@
+
+<html>
+    <head>
+        <title>Tender Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="main.jsp" method="post">
+            Tender name : <input type="text" name="name"><br>
+            Type : <input type = "text" name = "type" /><br>
+            Budget :<input type="number" name="budget"/><br>
+            Place :<input type="text" name="place"/><br>
+            Timeline :<input type="number" name="time"><br>
+            <input type="submit" name="Submit Form">
+            
+            
+         <input type = "submit" value = "Submit" />
+        </form>
+    </body>
+</html>
